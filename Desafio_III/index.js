@@ -1,4 +1,4 @@
-const { default: UseManager } = require("./managers/UserManager");
+import UseManager from "./managers/UserManager.js";
 
 const manager = new UseManager("./files/Usuarios.json");
 
